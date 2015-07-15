@@ -1,0 +1,194 @@
+<pubrequest requestid="adsfds" type="dlap" tier="dev" entityid="132434" discipline="astronomy">
+  <daterequested>3/14/2015 14:00</daterequested>
+  <publishuser>gsternig</publishuser> 
+  <request rsuiteid="rsuitid1" type="learningcurve">
+        <version>2.1</version>
+        <action>insert</action>           
+        <contentmetadata> 
+            <title>Reel Teaching Clip:  Chinese Immigrants Encounter Nativism (2:04)</title>
+            <contenttype>ExternalContent</contenttype>
+            <displaytype>Display Content</displaytype>       
+            <defaultfile type="external" version="">chapter1.html</defaultfile>
+            <referencedobjects>
+              <object version="1">/js</object>
+              <object version="1">/images</object>
+            </referencedobjects>                      
+        </contentmetadata>
+        <coursecontentmetadata>
+            <allowComments>true</allowComments>
+            <attemptlimit>0</attemptlimit>
+            <defaultpoints>0</defaultpoints>
+            <description>Test Description</description>
+            <graderule>2</graderule>
+            <instructoronly>Student instructor</instructoronly>
+            <latesubmissions>true</latesubmissions>
+            <openinsuppwindow>true</openinsuppwindow>
+            <subtitle>Clip</subtitle>
+            <thumbnailimage version="1" />
+            <useproxypage>false</useproxypage>
+            <viewsubmit>yes</viewsubmit>        
+            <associatedunits>
+                <unit rsuiteid="rsuitid1">Chapter 1</unit>
+            </associatedunits>        
+        </coursecontentmetadata>      
+        <toc>
+            <structure type="launchpad" hidefromlaunchpad="no">
+                <associatedunitid/>
+                <parentid>bsi__17593B4C__90B3__45B3__8211__6B0CA6984500</parentid>
+                <sequence>zzzb</sequence>
+            </structure>
+        </toc>
+    </request>
+  <request rsuiteid="rsuitid2" type="quiz">
+    <version>2.1</version>
+    <action>insert</action>
+    <contentmetadata>
+      <title>Testing Item 2</title>
+      <contenttype>ExternalContent</contenttype>
+      <displaytype>Display Content</displaytype>
+      <defaultfile type="external" version="">chapter1.html</defaultfile>
+      <referencedobjects>
+        <object version="1">/js</object>
+        <object version="1">/images</object>
+      </referencedobjects>
+    </contentmetadata>
+    <coursecontentmetadata>
+      <allowComments>true</allowComments>
+      <attemptlimit>0</attemptlimit>
+      <defaultpoints>0</defaultpoints>
+      <description>Test Description</description>
+      <graderule>2</graderule>
+      <instructoronly>Student instructor</instructoronly>
+      <latesubmissions>true</latesubmissions>
+      <openinsuppwindow>true</openinsuppwindow>
+      <subtitle>Clip</subtitle>
+      <thumbnailimage version="1" />
+      <useproxypage>false</useproxypage>
+      <viewsubmit>yes</viewsubmit>
+      <associatedunits>
+        <unit rsuiteid="rsuitid2">Chapter 2</unit>
+      </associatedunits>
+    </coursecontentmetadata>
+    <toc>
+      <structure type="launchpad" hidefromlaunchpad="no">
+        <associatedunitid/>
+        <parentid>bsi__6F979F7F__6E3B__4C7D__B9C6__B61EA1377A9F</parentid>
+        <sequence>zzzC</sequence>
+      </structure>
+    </toc>
+  </request>
+  <request rsuiteid="rsuitid3" type="quiz">
+    <version>2.1</version>
+    <action>insert</action>
+    <contentmetadata>
+      <title>Testing Item 2</title>
+      <contenttype>ExternalContent</contenttype>
+      <displaytype>Display Content</displaytype>
+      <defaultfile type="external" version="">chapter1.html</defaultfile>
+      <referencedobjects>
+        <object version="1">/js</object>
+        <object version="1">/images</object>
+      </referencedobjects>
+    </contentmetadata>
+    <coursecontentmetadata>
+      <allowComments>true</allowComments>
+      <attemptlimit>1</attemptlimit>
+      <defaultpoints>0</defaultpoints>
+      <description>Test Description</description>
+      <graderule>2</graderule>
+      <instructoronly>Student instructor</instructoronly>
+      <latesubmissions>true</latesubmissions>
+      <openinsuppwindow>true</openinsuppwindow>
+      <subtitle>Clip</subtitle>
+      <thumbnailimage version="1" />
+      <useproxypage>false</useproxypage>
+      <viewsubmit>yes</viewsubmit>
+      <associatedunits>
+        <unit rsuiteid="rsuitid3">Chapter 2</unit>
+      </associatedunits>
+    </coursecontentmetadata>
+    <toc>
+      <structure type="launchpad" hidefromlaunchpad="no">
+        <associatedunitid/>
+        <parentid>bsi__6F979F7F__6E3B__4C7D__B9C6__B61EA1377A9F</parentid>
+        <sequence>zzzC</sequence>
+      </structure>
+    </toc>
+  </request>
+  <request rsuiteid="rsuitid4" type="quiz">
+    <version>2.1</version>
+    <action>insert</action>
+    <contentmetadata>
+      <title>Testing Item 2</title>
+      <contenttype>ExternalContent</contenttype>
+      <displaytype>Display Content</displaytype>
+      <defaultfile type="external" version="">chapter1.html</defaultfile>
+      <referencedobjects>
+        <object version="1">/js</object>
+        <object version="1">/images</object>
+      </referencedobjects>
+    </contentmetadata>
+    <coursecontentmetadata>
+      <allowComments>true</allowComments>
+      <attemptlimit>1</attemptlimit>
+      <defaultpoints>0</defaultpoints>
+      <description>Test Description</description>
+      <graderule>2</graderule>
+      <instructoronly>Student instructor</instructoronly>
+      <latesubmissions>true</latesubmissions>
+      <openinsuppwindow>true</openinsuppwindow>
+      <subtitle>Clip</subtitle>
+      <thumbnailimage version="1" />
+      <useproxypage>false</useproxypage>
+      <viewsubmit>yes</viewsubmit>
+      <associatedunits>
+        <unit rsuiteid="rsuitid4">Chapter 2</unit>
+      </associatedunits>
+    </coursecontentmetadata>
+    <toc>
+      <structure type="launchpad" hidefromlaunchpad="no">
+        <associatedunitid/>
+        <parentid>bsi__6F979F7F__6E3B__4C7D__B9C6__B61EA1377A9F</parentid>
+        <sequence>zzzC</sequence>
+      </structure>
+    </toc>
+  </request>
+  <request rsuiteid="rsuitid5" type="quiz">
+    <version>2.1</version>
+    <action>insert</action>
+    <contentmetadata>
+      <title>Testing Item 2</title>
+      <contenttype>ExternalContent</contenttype>
+      <displaytype>Display Content</displaytype>
+      <defaultfile type="external" version="">chapter1.html</defaultfile>
+      <referencedobjects>
+        <object version="1">/js</object>
+        <object version="1">/images</object>
+      </referencedobjects>
+    </contentmetadata>
+    <coursecontentmetadata>
+      <allowComments>true</allowComments>
+      <attemptlimit>1</attemptlimit>
+      <defaultpoints>0</defaultpoints>
+      <description>Test Description</description>
+      <graderule>2</graderule>
+      <instructoronly>Student instructor</instructoronly>
+      <latesubmissions>true</latesubmissions>
+      <openinsuppwindow>true</openinsuppwindow>
+      <subtitle>Clip</subtitle>
+      <thumbnailimage version="1" />
+      <useproxypage>false</useproxypage>
+      <viewsubmit>yes</viewsubmit>
+      <associatedunits>
+        <unit rsuiteid="rsuitid5">Chapter 2</unit>
+      </associatedunits>
+    </coursecontentmetadata>
+    <toc>
+      <structure type="launchpad" hidefromlaunchpad="no">
+        <associatedunitid/>
+        <parentid>bsi__6F979F7F__6E3B__4C7D__B9C6__B61EA1377A9F</parentid>
+        <sequence>zzzC</sequence>
+      </structure>
+    </toc>
+  </request>
+</pubrequest>

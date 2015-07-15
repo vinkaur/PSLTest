@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item type="container"><displayName>BPS6e</displayName>
+<metadata>
+    <metadata-item><name>active_status</name><value>active</value></metadata-item>
+    <metadata-item><name>manifest_id</name><value>myers10e</value></metadata-item>
+    <metadata-item><name>isbn</name><value>1234567890</value></metadata-item>
+    <metadata-item><name>site_type</name><value>Launchpad Vertical</value></metadata-item>
+    <metadata-item><name>ebook_config</name><value>full</value></metadata-item>
+    <metadata-item><name>discipline</name><value>Psychology</value></metadata-item>
+    <metadata-item><name>publisher</name><value>Bedford/St. Martins</value></metadata-item>
+    <metadata-item><name>title</name><value>Myers</value></metadata-item>
+    <metadata-item><name>edition</name><value>10</value></metadata-item>
+    <metadata-item><name>subtitle</name><value>subtitile</value></metadata-item>
+    <metadata-item><name>author</name><value>Myers</value></metadata-item>
+  </metadata>
+  <item type="container"><displayName>TOC</displayName><metadata/><item type="container"><displayName>test</displayName><metadata/><item type="xml"><displayName>Resource Item</displayName><content><map xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:r="http://www.rsuitecms.com/rsuite/ns/metadata" class="- map/map " ditaarch:DITAArchVersion="1.2" domains="   (map pubmap-d)   (map mapgroup-d)   (map pubmeta-d)   (map d4p_enumerationMap-d)   (map d4p_simpleEnumeration-d)   (topic d4p_variables-d)   a(base rsuiteIdAtt)                         " r:rsuiteId="144105">
+  <title class="- topic/title ">Resource Item</title>
+  <pubmeta class="+ map/topicmeta pubmeta-d/pubmeta ">
+    <data class="- topic/data " name="subtitle"/>
+    <data class="- topic/data " name="description"/>
+    <data class="- topic/data " name="default_points"/>
+    <data class="- topic/data " datatype="trueorfalse" name="allow_comments">true</data>
+    <data class="- topic/data " datatype="trueorfalse" name="use_proxy_page">true</data>
+    <data class="- topic/data " datatype="trueorfalse" name="late_summissions"/>
+    <data class="- topic/data " datatype="trueorfalse" name="instructor_only">false</data>
+    <data class="- topic/data " datatype="mhe:isviewable" name="viewable_submittable"/>
+    <data class="- topic/data " name="associated_units"/>
+    <data class="- topic/data " name="attempt_limit"/>
+    </pubmeta>
+  <topicref class="- map/topicref " href=""/>
+  </map></content></item></item><item type="container"><displayName>Unit 1</displayName>
+  <metadata>
+    <metadata-item><name>course_unit_title</name><value>Unit 1</value></metadata-item>
+      <metadata-item><name>hide_from_launchpad</name><value>false</value></metadata-item>
+        <metadata-item><name>thumbnail_image_url</name><value>\images\image1.png</value></metadata-item>
+          <metadata-item><name>course_unit_description</name><value>intrduction to stats</value></metadata-item>
+            <metadata-item><name>instructor_only</name><value>false</value></metadata-item>
+  </metadata>
+  <item type="container"><displayName>1.1 Gumball Machine</displayName><metadata/><item type="container"><displayName>Learning</displayName><metadata/><item type="xml"><displayName>Guide to Stats</displayName><content><metadata-global><metadata-item><name>title</name><value>PDF_resources_Library</value></metadata-item><metadata-item><name>display_type</name><value>recources</value></metadata-item><metadata-item><name>content_type</name><value>Resource</value></metadata-item></metadata-global><map xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:r="http://www.rsuitecms.com/rsuite/ns/metadata" class="- map/map " ditaarch:DITAArchVersion="1.2" domains="   (map pubmap-d)   (map mapgroup-d)   (map pubmeta-d)   (map d4p_enumerationMap-d)   (map d4p_simpleEnumeration-d)   (topic d4p_variables-d)   a(base rsuiteIdAtt)                         " r:rsuiteId="144291">
+  <title class="- topic/title ">Guide to Stats</title>
+  <pubmeta class="+ map/topicmeta pubmeta-d/pubmeta ">
+    <data class="- topic/data " name="subtitle">Guide to Stats</data>
+    <data class="- topic/data " name="description">Guide to Stats</data>
+    <data class="- topic/data " name="default_points">10</data>
+    <data class="- topic/data " datatype="trueorfalse" name="allow_comments">true</data>
+    <data class="- topic/data " datatype="trueorfalse" name="use_proxy_page">true</data>
+    <data class="- topic/data " datatype="trueorfalse" name="late_summissions">true</data>
+    <data class="- topic/data " datatype="trueorfalse" name="instructor_only">false</data>
+    <data class="- topic/data " datatype="mhe:isviewable" name="viewable_submittable">true</data>
+    <data class="- topic/data " name="associated_units">unit 3</data>
+    </pubmeta>
+  <topicref class="- map/topicref " href="/rsuite/rest/v2/content/binary/alias/RSuite Dashboard Quick Start Guide.pdf"/>
+  </map></content></item></item><item type="container"><displayName>Exaples</displayName><metadata/><item type="xml"><displayName>Secret Door Activity</displayName><content><metadata-global><metadata-item><name>display_type</name><value>Dropbox Assignments</value></metadata-item><metadata-item><name>content_type</name><value>Dropbox</value></metadata-item></metadata-global><map xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:r="http://www.rsuitecms.com/rsuite/ns/metadata" class="- map/map " ditaarch:DITAArchVersion="1.2" domains="   (map pubmap-d)   (map mapgroup-d)   (map pubmeta-d)   (map d4p_enumerationMap-d)   (map d4p_simpleEnumeration-d)   (topic d4p_variables-d)   a(base rsuiteIdAtt)                         " r:rsuiteId="144310">
+  <title class="- topic/title ">Secret Door Activity</title>
+  <pubmeta class="+ map/topicmeta pubmeta-d/pubmeta ">
+    <data class="- topic/data " name="subtitle">Secret Door Activity</data>
+    <data class="- topic/data " name="description">Secret Door Activity</data>
+    <data class="- topic/data " name="default_points">10</data>
+    <data class="- topic/data " datatype="trueorfalse" name="allow_comments">false</data>
+    <data class="- topic/data " datatype="trueorfalse" name="use_proxy_page">true</data>
+    <data class="- topic/data " datatype="trueorfalse" name="late_summissions">false</data>
+    <data class="- topic/data " datatype="trueorfalse" name="instructor_only">false</data>
+    <data class="- topic/data " datatype="mhe:isviewable" name="viewable_submittable">true</data>
+    <data class="- topic/data " name="associated_units">Unit 1</data>
+    <data class="- topic/data " name="attempt_limit">3</data>
+    </pubmeta>
+  <topicref class="- map/topicref " href="/rsuite/rest/v2/content/binary/alias/object.xml"/>
+  </map></content></item></item></item><item type="xml"><displayName>Introduction</displayName><content><metadata-global><metadata-item><name>prod</name><value>131055</value></metadata-item><metadata-item><name>manifest_id</name><value>McCornack1e</value></metadata-item><metadata-item><name>content_type</name><value>Ebook</value></metadata-item><metadata-item><name>display_type</name><value>Ebook</value></metadata-item><metadata-item><name>isbn</name><value>9780312387839</value></metadata-item></metadata-global><map xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:r="http://www.rsuitecms.com/rsuite/ns/metadata" class="- map/map " ditaarch:DITAArchVersion="1.2" domains="   (map pubmap-d)   (map mapgroup-d)   (map pubmeta-d)   (map d4p_enumerationMap-d)   (map d4p_simpleEnumeration-d)   (topic d4p_variables-d)   a(base rsuiteIdAtt)                         " r:rsuiteId="144243">
+  <title class="- topic/title ">Introduction</title>
+  <pubmeta class="+ map/topicmeta pubmeta-d/pubmeta ">
+    <data class="- topic/data " name="subtitle">Chapter 1 Ebook</data>
+    <data class="- topic/data " name="description">Chapter 1 ebook</data>
+    <data class="- topic/data " name="default_points">5</data>
+    <data class="- topic/data " datatype="trueorfalse" name="allow_comments">true</data>
+    <data class="- topic/data " datatype="trueorfalse" name="use_proxy_page">false</data>
+    <data class="- topic/data " datatype="trueorfalse" name="late_summissions"/>
+    <data class="- topic/data " datatype="trueorfalse" name="instructor_only">false</data>
+    <data class="- topic/data " datatype="mhe:isviewable" name="viewable_submittable"/>
+    <data class="- topic/data " name="associated_units"/>
+    </pubmeta>
+  <topicref class="- map/topicref " href="/rsuite/rest/v2/content/binary/id/131037"/>
+  </map></content></item></item><item type="container"><displayName>Unit 2</displayName><metadata><metadata-item><name>course_unit_title</name><value>Unit 2</value></metadata-item><metadata-item><name>hide_from_launchpad</name><value>false</value></metadata-item><metadata-item><name>thumbnail_image_url</name><value>\images\probability.png</value></metadata-item><metadata-item><name>course_unit_description</name><value>Chapter 1 Basics of Probability </value></metadata-item><metadata-item><name>instructor_only</name><value>false</value></metadata-item></metadata><item type="xml"><displayName>Winning at blackjack</displayName><content><metadata-global><metadata-item><name>display_type</name><value>Dropbox Assignments</value></metadata-item><metadata-item><name>content_type</name><value>Dropbox</value></metadata-item></metadata-global><map xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:r="http://www.rsuitecms.com/rsuite/ns/metadata" class="- map/map " ditaarch:DITAArchVersion="1.2" domains="   (map pubmap-d)   (map mapgroup-d)   (map pubmeta-d)   (map d4p_enumerationMap-d)   (map d4p_simpleEnumeration-d)   (topic d4p_variables-d)   a(base rsuiteIdAtt)                         " r:rsuiteId="144251">
+  <title class="- topic/title ">Winning at blackjack</title>
+  <pubmeta class="+ map/topicmeta pubmeta-d/pubmeta ">
+    <data class="- topic/data " name="subtitle">Winning at blackjack</data>
+    <data class="- topic/data " name="description">Reading Assignment about blackjack and probability</data>
+    <data class="- topic/data " name="default_points">10</data>
+    <data class="- topic/data " datatype="trueorfalse" name="allow_comments">true</data>
+    <data class="- topic/data " datatype="trueorfalse" name="use_proxy_page">true</data>
+    <data class="- topic/data " datatype="trueorfalse" name="late_summissions">false</data>
+    <data class="- topic/data " datatype="trueorfalse" name="instructor_only">false</data>
+    <data class="- topic/data " datatype="mhe:isviewable" name="viewable_submittable">true</data>
+    <data class="- topic/data " name="associated_units">unit 1</data>
+    </pubmeta>
+  <topicref class="- map/topicref " href="/rsuite/rest/v2/content/binary/alias/object.xml"/>
+  </map></content></item><item type="xml"><displayName>Arga Theory of Mind</displayName><content><metadata-global><metadata-item><name>prod</name><value>131220</value></metadata-item><metadata-item><name>manifest_id</name><value>ARGA1</value></metadata-item><metadata-item><name>isbn</name><value>1234567891230</value></metadata-item><metadata-item><name>content_type</name><value>ARGA</value></metadata-item><metadata-item><name>display_type</name><value>Basic ARGA Quiz</value></metadata-item></metadata-global><map xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:r="http://www.rsuitecms.com/rsuite/ns/metadata" class="- map/map " ditaarch:DITAArchVersion="1.2" domains="   (map pubmap-d)   (map mapgroup-d)   (map pubmeta-d)   (map d4p_enumerationMap-d)   (map d4p_simpleEnumeration-d)   (topic d4p_variables-d)   a(base rsuiteIdAtt)                         " r:rsuiteId="144259">
+  <title class="- topic/title ">Arga Theory of Mind</title>
+  <pubmeta class="+ map/topicmeta pubmeta-d/pubmeta ">
+    <data class="- topic/data " name="subtitle">Arga Theory of Mind</data>
+    <data class="- topic/data " name="description">Arga Theory of Mind</data>
+    <data class="- topic/data " name="default_points">10</data>
+    <data class="- topic/data " datatype="trueorfalse" name="allow_comments">false</data>
+    <data class="- topic/data " datatype="trueorfalse" name="use_proxy_page">true</data>
+    <data class="- topic/data " datatype="trueorfalse" name="late_summissions">False</data>
+    <data class="- topic/data " datatype="trueorfalse" name="instructor_only">false</data>
+    <data class="- topic/data " datatype="mhe:isviewable" name="viewable_submittable">true</data>
+    <data class="- topic/data " name="associated_units">Unit 2</data>
+    </pubmeta>
+  <topicref class="- map/topicref " href="/rsuite/rest/v2/content/binary/alias/132_theory_of_mind.ditamap"/>
+  </map></content></item><item type="xml"><displayName>Chapter 2 Verbal Communication</displayName><content><metadata-global><metadata-item><name>prod</name><value>131055</value></metadata-item><metadata-item><name>manifest_id</name><value>McCornack1e</value></metadata-item><metadata-item><name>content_type</name><value>Ebook</value></metadata-item><metadata-item><name>display_type</name><value>Ebook</value></metadata-item><metadata-item><name>isbn</name><value>9780312387839</value></metadata-item></metadata-global><map xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:r="http://www.rsuitecms.com/rsuite/ns/metadata" class="- map/map " ditaarch:DITAArchVersion="1.2" domains="   (map pubmap-d)   (map mapgroup-d)   (map pubmeta-d)   (map d4p_enumerationMap-d)   (map d4p_simpleEnumeration-d)   (topic d4p_variables-d)   a(base rsuiteIdAtt)                         " r:rsuiteId="144267">
+  <title class="- topic/title ">Chapter 2 Verbal Communication</title>
+  <pubmeta class="+ map/topicmeta pubmeta-d/pubmeta ">
+    <data class="- topic/data " name="subtitle">Chapter 2</data>
+    <data class="- topic/data " name="description">Chapter 2 Verbal Communication</data>
+    <data class="- topic/data " name="default_points">5</data>
+    <data class="- topic/data " datatype="trueorfalse" name="allow_comments">true</data>
+    <data class="- topic/data " datatype="trueorfalse" name="use_proxy_page">false</data>
+    <data class="- topic/data " datatype="trueorfalse" name="late_summissions">false</data>
+    <data class="- topic/data " datatype="trueorfalse" name="instructor_only">false</data>
+    <data class="- topic/data " datatype="mhe:isviewable" name="viewable_submittable">true</data>
+    <data class="- topic/data " name="associated_units">Unit 2</data>
+    </pubmeta>
+  <topicref class="- map/topicref " href="/rsuite/rest/v2/content/binary/id/131042"/>
+  </map></content></item></item><item type="container"><displayName>Unit 3</displayName><metadata><metadata-item><name>course_unit_title</name><value>Unit 3</value></metadata-item><metadata-item><name>hide_from_launchpad</name><value>false</value></metadata-item><metadata-item><name>thumbnail_image_url</name><value>\images\blackjack.png</value></metadata-item><metadata-item><name>course_unit_description</name><value>Winning Blackjack</value></metadata-item><metadata-item><name>instructor_only</name><value>false</value></metadata-item></metadata><item type="xml"><displayName>Learning Curve Review</displayName><content><metadata-global><metadata-item><name>display_type</name><value>Dropbox Assignments</value></metadata-item><metadata-item><name>content_type</name><value>Dropbox</value></metadata-item></metadata-global><map xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:r="http://www.rsuitecms.com/rsuite/ns/metadata" class="- map/map " ditaarch:DITAArchVersion="1.2" domains="   (map pubmap-d)   (map mapgroup-d)   (map pubmeta-d)   (map d4p_enumerationMap-d)   (map d4p_simpleEnumeration-d)   (topic d4p_variables-d)   a(base rsuiteIdAtt)                         " r:rsuiteId="144283">
+  <title class="- topic/title ">Learning Curve Review</title>
+  <pubmeta class="+ map/topicmeta pubmeta-d/pubmeta ">
+    <data class="- topic/data " name="subtitle">Learning Curve Review</data>
+    <data class="- topic/data " name="description">Learning Curve Review </data>
+    <data class="- topic/data " name="default_points">100</data>
+    <data class="- topic/data " datatype="trueorfalse" name="allow_comments">true</data>
+    <data class="- topic/data " datatype="trueorfalse" name="use_proxy_page">true</data>
+    <data class="- topic/data " datatype="trueorfalse" name="late_summissions">false</data>
+    <data class="- topic/data " datatype="trueorfalse" name="instructor_only">false</data>
+    <data class="- topic/data " datatype="mhe:isviewable" name="viewable_submittable">true</data>
+    <data class="- topic/data " name="associated_units">Unit 3</data>
+    </pubmeta>
+  <topicref class="- map/topicref " href="/rsuite/rest/v2/content/binary/alias/object.xml"/>
+  </map></content></item></item><item type="container"><displayName>Front Matter</displayName><metadata><metadata-item><name>course_unit_title</name><value>Front Matter</value></metadata-item><metadata-item><name>hide_from_launchpad</name><value>true</value></metadata-item><metadata-item><name>thumbnail_image_url</name><value>images\stats\frontmatter.png</value></metadata-item><metadata-item><name>course_unit_description</name><value>Front Matter for Ebook</value></metadata-item><metadata-item><name>instructor_only</name><value>false</value></metadata-item></metadata><item type="xml"><displayName>Chapter 3 non Verbal Communication</displayName><content><metadata-global><metadata-item><name>prod</name><value>131055</value></metadata-item><metadata-item><name>manifest_id</name><value>McCornack1e</value></metadata-item><metadata-item><name>content_type</name><value>Ebook</value></metadata-item><metadata-item><name>display_type</name><value>Ebook</value></metadata-item><metadata-item><name>isbn</name><value>9780312387839</value></metadata-item></metadata-global><map xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:r="http://www.rsuitecms.com/rsuite/ns/metadata" class="- map/map " ditaarch:DITAArchVersion="1.2" domains="   (map pubmap-d)   (map mapgroup-d)   (map pubmeta-d)   (map d4p_enumerationMap-d)   (map d4p_simpleEnumeration-d)   (topic d4p_variables-d)   a(base rsuiteIdAtt)                         " r:rsuiteId="144275">
+  <title class="- topic/title ">Chapter 3 non Verbal Communication</title>
+  <pubmeta class="+ map/topicmeta pubmeta-d/pubmeta ">
+    <data class="- topic/data " name="subtitle">Chapter 3 non Verbal Communication</data>
+    <data class="- topic/data " name="description">Chapter 3 non Verbal Communication</data>
+    <data class="- topic/data " name="default_points">10</data>
+    <data class="- topic/data " datatype="trueorfalse" name="allow_comments">true</data>
+    <data class="- topic/data " datatype="trueorfalse" name="use_proxy_page">false</data>
+    <data class="- topic/data " datatype="trueorfalse" name="late_summissions">True</data>
+    <data class="- topic/data " datatype="trueorfalse" name="instructor_only">false</data>
+    <data class="- topic/data " datatype="mhe:isviewable" name="viewable_submittable">true</data>
+    <data class="- topic/data " name="associated_units">Unit 3</data>
+    </pubmeta>
+  <topicref class="- map/topicref " href="/rsuite/rest/v2/content/binary/id/131047"/>
+  </map></content></item></item></item><item type="container"><displayName>Resources</displayName><metadata/><item type="object"><displayName>thetruthhasbeen.jpg</displayName><metadata/></item></item></item>

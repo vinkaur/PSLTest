@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item type="container">
+  <displayName>BPS6e</displayName>
+  <metadata>
+    <metadata-item>
+      <name>active_status</name>
+      <value>active</value>
+    </metadata-item>
+    <metadata-item>
+      <name>manifest_id</name>
+      <value>myers10e</value>
+    </metadata-item>
+    <metadata-item>
+      <name>isbn</name>
+      <value>1234567890</value>
+    </metadata-item>
+    <metadata-item>
+      <name>site_type</name>
+      <value>Launchpad Vertical</value>
+    </metadata-item>
+    <metadata-item>
+      <name>ebook_config</name>
+      <value>full</value>
+    </metadata-item>
+    <metadata-item>
+      <name>discipline</name>
+      <value>Psychology</value>
+    </metadata-item>
+    <metadata-item>
+      <name>publisher</name>
+      <value>Bedford/St. Martins</value>
+    </metadata-item>
+    <metadata-item>
+      <name>title</name>
+      <value>Myers</value>
+    </metadata-item>
+    <metadata-item>
+      <name>edition</name>
+      <value>10</value>
+    </metadata-item>
+    <metadata-item>
+      <name>subtitle</name>
+      <value>subtitile</value>
+    </metadata-item>
+    <metadata-item>
+      <name>author</name>
+      <value>Myers</value>
+    </metadata-item>
+  </metadata>
+</item>

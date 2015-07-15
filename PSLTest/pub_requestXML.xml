@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pubrequest requestid="adsfds" type="dlap" tier="cdt/dev/qa/production" entityid="132434" discipline="astronomy/biology/etc">
+  <daterequested>3/14/2015 14:00</daterequested>
+    <publishuser>gsternig</publishuser>
+    <request rsuiteid="rsuite_xxx" type="unit/subunit/resource/ebook/learningcurve/quiz/arga/argaflashcard/dropbox">
+      <version>2.1</version>
+      <action>insert/update/delete</action>
+      <contentmetadata>
+        <!--see https://macmillanhighered.atlassian.net/wiki/display/CMS/Global+Content+Metadata -->
+        <title />
+        <contenttype />
+        <displaytype />
+        <defaultfile type="external/rsuite" version="">chapter1.html</defaultfile>
+        <referencedobjects>
+          <!-- Each object references one file -->
+          <object version="1">/js</object>
+          <object version="1">/images</object>
+        </referencedobjects>
+      </contentmetadata>
+      <coursecontentmetadata>
+        <!-- see https://macmillanhighered.atlassian.net/wiki/display/CMS/Course-Contextual+Content+Metadata -->
+        <allowcomments />
+        <attemptlimit />
+        <defaultpoints />
+        <description />
+        <graderule />
+        <instructoronly />
+        <latesubmissions />
+        <openinsuppwindow />
+        <subtitle />
+        <thumbnailimage version="1" />
+        <useproxypage />
+        <viewsubmit />
+        <associatedunits>
+          <unit rsuiteid="rsuite_xxx">Chapter 1</unit>
+        </associatedunits>
+      </coursecontentmetadata>
+      <toc>
+        <structure type="launchpad" hidefromlaunchpad="yes/no">
+          <associatedunitid/>
+          <parentid/>
+          <sequence/>
+        </structure>
+      </toc>
+    </request>
+  </pubrequest>
