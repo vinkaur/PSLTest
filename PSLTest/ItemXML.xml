@@ -1,8 +1,60 @@
-﻿<item itemid="bsi__78A08465__94E4__4E13__826B__5AE768CC696C" entityid="12345">
+﻿<item rsuiteid="bsi__52FDF221__1CCC__4C41__91BD__FF5C13812038" version="0.68" resourceentityid="492766,8,0" actualentityid="492766" creationdate="2014-05-12T21:38:27.727Z" creationby="7" modifieddate="2015-06-02T18:06:06.79Z" modifiedby="2" origindepth="1" derivativedepth="1">
   <data>
-    <parent>bsi__B7F49791__7C26__47ED__93AE__B39ADBB506A9</parent>
+    <link courseid="6696" itemid="bsi__52FDF221__1CCC__4C41__91BD__FF5C13812038" />
+    <type>Resource</type>
+    <parent>PX_MORE_RESOURCES</parent>
+    <sequence>k</sequence>
+    <title>Reel Teaching Clip:  Chinese Immigrants Encounter Nativism (2:04)</title>
+    <folder>bsi__52FDF221__1CCC__4C41__91BD__FF5C13812038</folder>
+    <href entityid="6696">SitebuilderUploads/CAP5e/Reel Teaching Videos/video htmls/Chinese Immigrants Encounter Nativism.html</href>
+    <timetocomplete>PT1M</timetocomplete>
+    <category>0</category>
+    <categorysequence>k</categorysequence>
+    <period inherit="true">0</period>
+    <groupsetid>-1</groupsetid>
+    <projectgroupsetid>-1</projectgroupsetid>
+    <duedate>0001-01-01T00:00:00Z</duedate>
+    <gradereleasedate>2015-05-29T22:03:18.7651254Z</gradereleasedate>
+    <weight>100</weight>
+    <gradeentry>1</gradeentry>
+    <inputtable inherit="true">0</inputtable>
+    <completiontrigger>0</completiontrigger>
+    <submissiongradeaction>-1</submissiongradeaction>
+    <securitylevel>Low</securitylevel>
+    <bfw_type>ExternalContent</bfw_type>
     <bfw_subtype>LINK</bfw_subtype>
-    <externalId>bergerinvitels2ecanadian-pt1-section-1</externalId>
-    <title>Part 1 Introduction</title>
+    <bfw_meta>
+      <bfw_metadata name="bfw_allowcomments" type="Boolean">true</bfw_metadata>
+      <bfw_metadata name="AgilixDisciplineId">6696</bfw_metadata>
+    </bfw_meta>
+    <bfw_properties>
+      <bfw_property name="bfw_visibility" type="String">&lt;bfw_visibility&gt;&lt;instructor /&gt;&lt;student /&gt;&lt;/bfw_visibility&gt;</bfw_property>
+      <bfw_property name="HideFromStudents" type="Boolean">false</bfw_property>
+      <bfw_property name="bfw_item_default_points" />
+    </bfw_properties>
+    <AssignmentSettings>
+      <AvailableCompletionTriggers>0|3</AvailableCompletionTriggers>
+      <DefaultCompletionTrigger>3</DefaultCompletionTrigger>
+      <AvailableSubmissionGradeActions>2</AvailableSubmissionGradeActions>
+      <DefaultSubmissionGradeAction>2</DefaultSubmissionGradeAction>
+    </AssignmentSettings>
+    <IsMarkAsCompleteChecked>false</IsMarkAsCompleteChecked>
+    <meta-bfw_assigned>false</meta-bfw_assigned>
+    <proxyConfig>
+      <useProxyPage>true</useProxyPage>
+      <stripJS>false</stripJS>
+      <allowComments>false</allowComments>
+    </proxyConfig>
+    <creationby>7</creationby>
+    <meta-px-source>pdx_px</meta-px-source>
+    <meta-px-updated>2014-11-13T21:58:04Z</meta-px-updated>
+    <meta-px-user>mcamisa</meta-px-user>
+    <bfw_tocs>
+      <bfw_toc_contents parentid="PX_MORE_RESOURCES" sequence="k" />
+    </bfw_tocs>
+    <meta-topics>
+      <meta-topic dlaptype="exact">19. The Growth of America's Cities, 1870-1900</meta-topic>
+    </meta-topics>
+    <meta-content-type dlaptype="exact">student_Videos</meta-content-type>
   </data>
 </item>
