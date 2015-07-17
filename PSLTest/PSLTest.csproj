@@ -211,6 +211,7 @@
     <Content Include="mhe.webservice.courseManifest.xml" />
     <Content Include="mhe.webservice.courseManifes_update.xml" />
     <Content Include="packages.config" />
+    <Content Include="validations.aspx" />
     <Content Include="XMLFile1.xml">
       <SubType>Designer</SubType>
     </Content>
@@ -322,6 +323,13 @@
     </Compile>
     <Compile Include="Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="validations.aspx.cs">
+      <DependentUpon>validations.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="validations.aspx.designer.cs">
+      <DependentUpon>validations.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
