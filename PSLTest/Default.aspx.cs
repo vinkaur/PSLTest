@@ -7,8 +7,8 @@ using System.Web.UI.WebControls;
 using System.Xml;
 using System.Xml.Linq;
 using System.Xml.Serialization;
-
 using System.IO;
+using AutoMapper;
 
 namespace PSLTest
 {
@@ -16,21 +16,36 @@ namespace PSLTest
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            /*var serializer = new XmlSerializer(typeof(pubrequest));
+            /*var serializer = new XmlSerializer(typeof(Item));
+            Item pubreq = new Item();
+            var serializer = new XmlSerializer(typeof(pubrequest));
             using (var reader = XmlReader.Create(@"D:\Work\PSL\PSLTest\PSLTest\pub.xml"))
             {
                 pubrequest info = (pubrequest)serializer.Deserialize(reader);
             }*/
 
-           var serializer = new XmlSerializer(typeof(Item));
-           XDocument xdoc = XDocument.Load(@"D:\Work\PSL\PSLTest\PSLTest\ItemXML.xml");
-           using (var reader = XmlReader.Create(@"D:\Work\PSL\PSLTest\PSLTest\ItemXML.xml"))
+            
+           /*var serializer = new XmlSerializer(typeof(pubrequest));
+           pubrequest pubreq = new pubrequest();
+           using (var reader = XmlReader.Create(@"D:\Work\PSL\PSLTest\PSLTest\pub.xml"))
            {
-               Item info = (Item)serializer.Deserialize(reader);
+               pubreq = (pubrequest)serializer.Deserialize(reader);
            }
+            Mapper.CreateMap<pubrequest, Item>().ForMember(it => it.ItemId, map => map.MapFrom(pb => pb.RequestId ));
 
-            //XDocument xdoc = XDocument.Load(@"D:\Work\PSL\PSLTest\PSLTest\ItemXML.xml");
+           var item = Mapper.Map<pubrequest, Item>(pubreq);*/
 
+            loadRequestItemXML();
+        }
+
+        public void loadRequestItemXML()
+        {
+            var serializer = new XmlSerializer(typeof(ItemRequest));
+            ItemRequest Itemreq = new ItemRequest();
+            using (var reader = XmlReader.Create(@"D:\Work\PSL\PSLTest\PSLTest\itemXML.xml"))
+            {
+                Itemreq = (ItemRequest)serializer.Deserialize(reader);
+            }
         }
     }
 }

@@ -1,4 +1,4 @@
-<pubrequest requestid="adsfds" type="dlap" tier="dev" entityid="132434" discipline="astronomy">
+<pubrequest requestid="PubRequest1" type="dlap" tier="dev" entityid="132434" discipline="astronomy">
   <daterequested>3/14/2015 14:00</daterequested>
   <publishuser>gsternig</publishuser> 
   <request rsuiteid="rsuitid1" type="learningcurve">
