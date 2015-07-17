@@ -77,8 +77,8 @@
       </structure>
     </toc>
   </request>
-  <request rsuiteid="rsuitid3" type="quiz">
-    <version>2.1</version>
+  <request rsuiteid="rsuiteid3" type="quiz">
+    <version>2.3</version>
     <action>insert</action>
     <contentmetadata>
       <title>Testing Item 2</title>
