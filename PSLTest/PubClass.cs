@@ -7,7 +7,14 @@ using System.Xml.Serialization;
 namespace PSLTest
 {
     [Serializable]
-    [XmlRoot("pubrequest")]
+    [XmlRoot("request")]
+
+    public class Request
+    {
+        [XmlElement("item")]
+        public List<Item> Item { get; set; }
+    }
+
     public class pubrequest
     {
         [XmlAttribute("requestid")]
