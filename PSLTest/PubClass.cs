@@ -4,17 +4,10 @@ using System.Linq;
 using System.Web;
 using System.Xml.Serialization;
 
-namespace PSLTest
+namespace TestPubXml
 {
     [Serializable]
-    [XmlRoot("request")]
-
-    public class Request
-    {
-        [XmlElement("item")]
-        public List<Item> Item { get; set; }
-    }
-
+    [XmlRoot("pubrequest")]
     public class pubrequest
     {
         [XmlAttribute("requestid")]

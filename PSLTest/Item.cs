@@ -7,26 +7,13 @@ using System.Xml.Serialization;
 namespace PSLTest
 {
     [Serializable]
-    [XmlRoot("requests")]
-    public class ItemRequest
+    [XmlRoot("request")]
+
+    public class Request
     {
-        [XmlAttribute("type")]
-        public string Type { get; set; }
-
-        [XmlAttribute("cmd")]
-        public string CMD { get; set; }
-
-        [XmlAttribute("entityid")]
-        public string EntityId { get; set; }
-
-        [XmlAttribute("SiteRootItemID")]
-        public string siterootItemID { get; set; }
-
         [XmlElement("item")]
-        public Item Item { get; set; }
-
+        public List<Item> Item { get; set; }
     }
-
     public class Item
     {
         [XmlAttribute("itemid")]
@@ -37,7 +24,7 @@ namespace PSLTest
 
         [XmlAttribute("resourceentityid")]
         public string ResourceEntityId { get; set; }
-
+        
         [XmlAttribute("actualentityid")]
         public string ActualEntityId { get; set; }
 

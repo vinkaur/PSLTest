@@ -1,49 +1,39 @@
-<pubrequest requestid="PubRequest1" type="dlap" tier="dev" entityid="132434" discipline="astronomy">
+﻿<pubrequest requestid="adsfds" type="dlap" tier="dev" entityid="132434" discipline="astronomy">
   <daterequested>3/14/2015 14:00</daterequested>
-  <publishuser>gsternig</publishuser> 
-  <request rsuiteid="rsuitid1" type="learningcurve">
-        <version>2.1</version>
-        <action>insert</action>           
-        <contentmetadata> 
-            <title>Reel Teaching Clip:  Chinese Immigrants Encounter Nativism (2:04)</title>
-            <contenttype>ExternalContent</contenttype>
-            <displaytype>Display Content</displaytype>       
-            <defaultfile type="external" version="">chapter1.html</defaultfile>
-            <referencedobjects>
-              <object version="1">/js</object>
-              <object version="1">/images</object>
-            </referencedobjects>                      
-        </contentmetadata>
-        <coursecontentmetadata>
-            <allowComments>true</allowComments>
-            <attemptlimit>0</attemptlimit>
-            <defaultpoints>0</defaultpoints>
-            <description>Test Description</description>
-            <graderule>2</graderule>
-            <instructoronly>Student instructor</instructoronly>
-            <latesubmissions>true</latesubmissions>
-            <openinsuppwindow>true</openinsuppwindow>
-            <subtitle>Clip</subtitle>
-            <thumbnailimage version="1" />
-            <useproxypage>false</useproxypage>
-            <viewsubmit>yes</viewsubmit>        
-            <associatedunits>
-                <unit rsuiteid="rsuitid1">Chapter 1</unit>
-            </associatedunits>        
-        </coursecontentmetadata>      
-        <toc>
-            <structure type="launchpad" hidefromlaunchpad="no">
-                <associatedunitid/>
-                <parentid>bsi__17593B4C__90B3__45B3__8211__6B0CA6984500</parentid>
-                <sequence>zzzb</sequence>
-            </structure>
-        </toc>
-    </request>
-  <request rsuiteid="rsuitid2" type="quiz">
+  <publishuser>gsternig</publishuser>
+  <request rsuiteid="bsi__52FDF221__1CCC__4C41__91BD__FF5C13812038" type="learningcurve">
     <version>2.1</version>
-    <action>update</action>
+    <action>insert</action>    
+    <coursecontentmetadata>
+      <allowComments>true</allowComments>
+      <attemptlimit>0</attemptlimit>
+      <defaultpoints>0</defaultpoints>
+      <description>Test Description</description>
+      <graderule></graderule>
+      <instructoronly>Student instructor</instructoronly>
+      <latesubmissions>true</latesubmissions>
+      <openinsuppwindow>true</openinsuppwindow>
+      <subtitle>Clip</subtitle>
+      <thumbnailimage version="1" />
+      <useproxypage></useproxypage>
+      <viewsubmit>yes</viewsubmit>
+      <associatedunits>
+        <unit rsuiteid="bsi__52FDF221__1CCC__4C41__91BD__FF5C13812038">Chapter 1</unit>
+      </associatedunits>
+    </coursecontentmetadata>
+    <toc>
+      <structure type="launchpad" hidefromlaunchpad="no">
+        <associatedunitid/>
+        <parentid>bsi__17593B4C__90B3__45B3__8211__6B0CA6984500</parentid>
+        <sequence>zzzb</sequence>
+      </structure>
+    </toc>
+  </request>
+  <request rsuiteid="bsi__E860E33E__422D__4F58__9853__8B95582CE19B" type="learningcurve">
+    <version>2.1</version>
+    <action>insert</action>
     <contentmetadata>
-      <title>Testing Item 2</title>
+      <title>Reel Teaching Clip:  Chinese Laborers Build the Railroad (1:41)</title>
       <contenttype>ExternalContent</contenttype>
       <displaytype>Display Content</displaytype>
       <defaultfile type="external" version="">chapter1.html</defaultfile>
@@ -66,60 +56,22 @@
       <useproxypage>false</useproxypage>
       <viewsubmit>yes</viewsubmit>
       <associatedunits>
-        <unit rsuiteid="rsuitid2">Chapter 2</unit>
+        <unit rsuiteid="bsi__E860E33E__422D__4F58__9853__8B95582CE19B">Chapter 1</unit>
       </associatedunits>
     </coursecontentmetadata>
     <toc>
       <structure type="launchpad" hidefromlaunchpad="no">
         <associatedunitid/>
-        <parentid>bsi__6F979F7F__6E3B__4C7D__B9C6__B61EA1377A9F</parentid>
-        <sequence>zzzC</sequence>
+        <parentid>bsi__17593B4C__90B3__45B3__8211__6B0CA6984500</parentid>
+        <sequence>zzzb</sequence>
       </structure>
     </toc>
   </request>
-  <request rsuiteid="rsuitid3" type="quiz">
-    <version>2.1</version>
-    <action>insert</action>
-    <contentmetadata>
-      <title>Testing Item 2</title>
-      <contenttype>ExternalContent</contenttype>
-      <displaytype>Display Content</displaytype>
-      <defaultfile type="external" version="">chapter1.html</defaultfile>
-      <referencedobjects>
-        <object version="1">/js</object>
-        <object version="1">/images</object>
-      </referencedobjects>
-    </contentmetadata>
-    <coursecontentmetadata>
-      <allowComments>true</allowComments>
-      <attemptlimit>1</attemptlimit>
-      <defaultpoints>0</defaultpoints>
-      <description>Test Description</description>
-      <graderule>2</graderule>
-      <instructoronly>Student instructor</instructoronly>
-      <latesubmissions>true</latesubmissions>
-      <openinsuppwindow>true</openinsuppwindow>
-      <subtitle>Clip</subtitle>
-      <thumbnailimage version="1" />
-      <useproxypage>false</useproxypage>
-      <viewsubmit>yes</viewsubmit>
-      <associatedunits>
-        <unit rsuiteid="rsuitid3">Chapter 2</unit>
-      </associatedunits>
-    </coursecontentmetadata>
-    <toc>
-      <structure type="launchpad" hidefromlaunchpad="no">
-        <associatedunitid/>
-        <parentid>bsi__6F979F7F__6E3B__4C7D__B9C6__B61EA1377A9F</parentid>
-        <sequence>zzzC</sequence>
-      </structure>
-    </toc>
-  </request>
-  <request rsuiteid="rsuitid4" type="quiz">
+  <request rsuiteid="bsi__55DF508A__77BD__4977__8701__C7AA042954A0" type="learningcurve">
     <version>2.1</version>
     <action>update</action>
     <contentmetadata>
-      <title>Testing Item 2</title>
+      <title>Reel Teaching Clip: Civil Rights in Birmingham (2:43)</title>
       <contenttype>ExternalContent</contenttype>
       <displaytype>Display Content</displaytype>
       <defaultfile type="external" version="">chapter1.html</defaultfile>
@@ -130,7 +82,7 @@
     </contentmetadata>
     <coursecontentmetadata>
       <allowComments>true</allowComments>
-      <attemptlimit>1</attemptlimit>
+      <attemptlimit>0</attemptlimit>
       <defaultpoints>0</defaultpoints>
       <description>Test Description</description>
       <graderule>2</graderule>
@@ -142,22 +94,22 @@
       <useproxypage>false</useproxypage>
       <viewsubmit>yes</viewsubmit>
       <associatedunits>
-        <unit rsuiteid="rsuitid4">Chapter 2</unit>
+        <unit rsuiteid="bsi__55DF508A__77BD__4977__8701__C7AA042954A0">Chapter 1</unit>
       </associatedunits>
     </coursecontentmetadata>
     <toc>
       <structure type="launchpad" hidefromlaunchpad="no">
         <associatedunitid/>
-        <parentid>bsi__6F979F7F__6E3B__4C7D__B9C6__B61EA1377A9F</parentid>
-        <sequence>zzzC</sequence>
+        <parentid>bsi__17593B4C__90B3__45B3__8211__6B0CA6984500</parentid>
+        <sequence>zzzb</sequence>
       </structure>
     </toc>
   </request>
-  <request rsuiteid="rsuitid5" type="quiz">
-    <version>2.1</version>
-    <action>delete</action>
+  <request rsuiteid="bsi__52FDF221__1CCC__4C41__91BD__FF5C13812055" type="learningcurve">
+    <version>4</version>
+    <action>insert</action>
     <contentmetadata>
-      <title>Testing Item 2</title>
+      <title>Reel Teaching Clip:  Chinese Immigrants Encounter Nativism (2:04)</title>
       <contenttype>ExternalContent</contenttype>
       <displaytype>Display Content</displaytype>
       <defaultfile type="external" version="">chapter1.html</defaultfile>
@@ -168,26 +120,26 @@
     </contentmetadata>
     <coursecontentmetadata>
       <allowComments>true</allowComments>
-      <attemptlimit>1</attemptlimit>
+      <attemptlimit>0</attemptlimit>
       <defaultpoints>0</defaultpoints>
       <description>Test Description</description>
-      <graderule>2</graderule>
+      <graderule></graderule>
       <instructoronly>Student instructor</instructoronly>
       <latesubmissions>true</latesubmissions>
       <openinsuppwindow>true</openinsuppwindow>
       <subtitle>Clip</subtitle>
       <thumbnailimage version="1" />
-      <useproxypage>false</useproxypage>
+      <useproxypage></useproxypage>
       <viewsubmit>yes</viewsubmit>
       <associatedunits>
-        <unit rsuiteid="rsuitid5">Chapter 2</unit>
+        <unit rsuiteid="bsi__52FDF221__1CCC__4C41__91BD__FF5C13812055">Chapter 1</unit>
       </associatedunits>
     </coursecontentmetadata>
     <toc>
       <structure type="launchpad" hidefromlaunchpad="no">
         <associatedunitid/>
-        <parentid>bsi__6F979F7F__6E3B__4C7D__B9C6__B61EA1377A9F</parentid>
-        <sequence>zzzC</sequence>
+        <parentid>bsi__17593B4C__90B3__45B3__8211__6B0CA6984500</parentid>
+        <sequence>zzzb</sequence>
       </structure>
     </toc>
   </request>
