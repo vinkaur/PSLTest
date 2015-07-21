@@ -621,7 +621,7 @@ namespace UnitTestProject
                                       "</request>" +
                                     "</pubrequest>" ;
             validations validations = new validations();
-
+            
             //Act
             result = validations.ValidatePubRequest(strCourseXML);
         }

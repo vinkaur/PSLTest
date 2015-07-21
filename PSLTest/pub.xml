@@ -41,7 +41,7 @@
     </request>
   <request rsuiteid="rsuitid2" type="quiz">
     <version>2.1</version>
-    <action>insert</action>
+    <action>update</action>
     <contentmetadata>
       <title>Testing Item 2</title>
       <contenttype>ExternalContent</contenttype>
@@ -117,7 +117,7 @@
   </request>
   <request rsuiteid="rsuitid4" type="quiz">
     <version>2.1</version>
-    <action>insert</action>
+    <action>update</action>
     <contentmetadata>
       <title>Testing Item 2</title>
       <contenttype>ExternalContent</contenttype>
@@ -155,7 +155,7 @@
   </request>
   <request rsuiteid="rsuitid5" type="quiz">
     <version>2.1</version>
-    <action>insert</action>
+    <action>delete</action>
     <contentmetadata>
       <title>Testing Item 2</title>
       <contenttype>ExternalContent</contenttype>

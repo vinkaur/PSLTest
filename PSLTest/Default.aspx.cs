@@ -45,8 +45,8 @@ namespace PSLTest
             {
                 pubrequest info = (pubrequest)serializer.Deserialize(reader);
                 // do whatever you wanted to do with those locations
-                Mapper.CreateMap<pubrequest, Item>().ForMember(it => it.RsuiteId, o => o.ResolveUsing(pb => string.Join(",", pb.Request.Select(r => r.RsuiteId))));
-                var item = Mapper.Map<pubrequest, Item>(info);
+                Mapper.CreateMap<request, Item>().ForMember(s => s.ActualEntityId, opt => opt.MapFrom(c => c.Action));
+                var item = Mapper.Map<List<request>, List<Item>>(info.Request);
             }
         }
     }

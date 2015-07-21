@@ -29,9 +29,6 @@ namespace PSLTest
 
     public class Item
     {
-        [XmlAttribute("rsuiteid")]
-        public string RsuiteId { get; set; }
-
         [XmlAttribute("itemid")]
         public string ItemId { get; set; }
 
