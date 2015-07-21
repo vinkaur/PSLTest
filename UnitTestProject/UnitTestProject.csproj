@@ -60,6 +60,29 @@
       <Name>PSLTest</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Antlr3.Runtime.dll" />
+    <Content Include="bin\Debug\AutoMapper.xml" />
+    <Content Include="bin\Debug\DotNetOpenAuth.AspNet.dll" />
+    <Content Include="bin\Debug\DotNetOpenAuth.AspNet.xml" />
+    <Content Include="bin\Debug\DotNetOpenAuth.Core.dll" />
+    <Content Include="bin\Debug\DotNetOpenAuth.Core.xml" />
+    <Content Include="bin\Debug\DotNetOpenAuth.OAuth.Consumer.dll" />
+    <Content Include="bin\Debug\DotNetOpenAuth.OAuth.Consumer.xml" />
+    <Content Include="bin\Debug\DotNetOpenAuth.OAuth.dll" />
+    <Content Include="bin\Debug\DotNetOpenAuth.OAuth.xml" />
+    <Content Include="bin\Debug\DotNetOpenAuth.OpenId.dll" />
+    <Content Include="bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.dll" />
+    <Content Include="bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.xml" />
+    <Content Include="bin\Debug\DotNetOpenAuth.OpenId.xml" />
+    <Content Include="bin\Debug\EntityFramework.dll" />
+    <Content Include="bin\Debug\EntityFramework.xml" />
+    <Content Include="bin\Debug\Microsoft.AspNet.Membership.OpenAuth.dll" />
+    <Content Include="bin\Debug\System.Web.Optimization.dll" />
+    <Content Include="bin\Debug\UnitTestProject.dll" />
+    <Content Include="bin\Debug\UnitTestProject.pdb" />
+    <Content Include="bin\Debug\WebGrease.dll" />
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

@@ -16,9 +16,6 @@ namespace PSLTest
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            var itemList = new List<XElement>();
-            XDocument xDoc = XDocument.Load(@"D:\Site Builder\QTI\SB-1890\chapter_3-_differentiation.xml");
-            itemList = new List<XElement>(xDoc.Elements("questestinterop").Elements("item"));
             /*var serializer = new XmlSerializer(typeof(Item));
             Item pubreq = new Item();
             var serializer = new XmlSerializer(typeof(pubrequest));
@@ -44,12 +41,12 @@ namespace PSLTest
         public void loadRequestItemXML()
         {
             var serializer = new XmlSerializer(typeof(pubrequest));
-            using (var reader = XmlReader.Create("D:\\Work\\PSL\\PSLTest\\PSLTest\\pub.xml"))
+            using (var reader = XmlReader.Create("D:\\GitHub\\PSL\\PSLTest\\PSLTest\\PSLTest\\pub.xml"))
             {
                 pubrequest info = (pubrequest)serializer.Deserialize(reader);
                 // do whatever you wanted to do with those locations
-                Mapper.CreateMap<pubrequest, ItemRequest>().ForMember(it => it.Item.ItemId, o => o.ResolveUsing(pb => pb.Request.Select(r => r.RsuiteId)));
-                var item = Mapper.Map<pubrequest, ItemRequest>(info);
+                Mapper.CreateMap<request, Item>().ForMember(s => s.ActualEntityId, opt => opt.MapFrom(c => c.Action));
+                var item = Mapper.Map<List<request>, List<Item>>(info.Request);
             }
         }
     }
