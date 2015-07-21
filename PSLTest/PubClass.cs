@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Xml.Serialization;
 
-namespace TestPubXml
+namespace PSLTest
 {
     [Serializable]
     [XmlRoot("pubrequest")]

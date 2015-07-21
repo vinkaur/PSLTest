@@ -41,7 +41,7 @@ namespace PSLTest
         public void loadRequestItemXML()
         {
             var serializer = new XmlSerializer(typeof(pubrequest));
-            using (var reader = XmlReader.Create("D:\\GitHub\\PSL\\PSLTest\\PSLTest\\PSLTest\\pub.xml"))
+            using (var reader = XmlReader.Create("D:\\Work\\PSL\\PSLTest_dev\\PSLTest\\PSLTest\\pub.xml"))
             {
                 pubrequest info = (pubrequest)serializer.Deserialize(reader);
                 // do whatever you wanted to do with those locations
