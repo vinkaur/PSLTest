@@ -25,11 +25,11 @@
       <structure type="launchpad" hidefromlaunchpad="no">
         <associatedunitid/>
         <parentid>bsi__17593B4C__90B3__45B3__8211__6B0CA6984500</parentid>
-        <sequence>zzzb</sequence>
+        <sequence>zzza</sequence>
       </structure>
     </toc>
   </request>
-  <request rsuiteid="bsi__E860E33E__422D__4F58__9853__8B95582CE19B" type="learningcurve">
+  <request rsuiteid="bsi__E860E33E__422D__4F58__9853__8B95582CE19B" type="resource">
     <version>2.1</version>
     <action>insert</action>
     <contentmetadata>
@@ -62,12 +62,12 @@
     <toc>
       <structure type="launchpad" hidefromlaunchpad="no">
         <associatedunitid/>
-        <parentid>bsi__17593B4C__90B3__45B3__8211__6B0CA6984500</parentid>
+        <parentid>bsi__17593B4C__90B3__45B3__8211__6B0CA6984501</parentid>
         <sequence>zzzb</sequence>
       </structure>
     </toc>
   </request>
-  <request rsuiteid="bsi__55DF508A__77BD__4977__8701__C7AA042954A0" type="learningcurve">
+  <request rsuiteid="bsi__55DF508A__77BD__4977__8701__C7AA042954A0" type="dropbox">
     <version>2.1</version>
     <action>update</action>
     <contentmetadata>
@@ -100,12 +100,12 @@
     <toc>
       <structure type="launchpad" hidefromlaunchpad="no">
         <associatedunitid/>
-        <parentid>bsi__17593B4C__90B3__45B3__8211__6B0CA6984500</parentid>
-        <sequence>zzzb</sequence>
+        <parentid>bsi__17593B4C__90B3__45B3__8211__6B0CA6984502</parentid>
+        <sequence>zzzc</sequence>
       </structure>
     </toc>
   </request>
-  <request rsuiteid="bsi__52FDF221__1CCC__4C41__91BD__FF5C13812055" type="learningcurve">
+  <request rsuiteid="bsi__52FDF221__1CCC__4C41__91BD__FF5C13812055" type="arga">
     <version>4</version>
     <action>insert</action>
     <contentmetadata>
@@ -138,8 +138,46 @@
     <toc>
       <structure type="launchpad" hidefromlaunchpad="no">
         <associatedunitid/>
-        <parentid>bsi__17593B4C__90B3__45B3__8211__6B0CA6984500</parentid>
-        <sequence>zzzb</sequence>
+        <parentid>bsi__17593B4C__90B3__45B3__8211__6B0CA6984503</parentid>
+        <sequence>zzzd</sequence>
+      </structure>
+    </toc>
+  </request>
+  <request rsuiteid="bsi__52FDF221__1CCC__4C41__91BD__FF5C13812056" type="ebook">
+    <version>4</version>
+    <action>insert</action>
+    <contentmetadata>
+      <title>Reel Teaching Clip:  Chinese Immigrants Encounter Nativism (2:04)</title>
+      <contenttype>ExternalContent</contenttype>
+      <displaytype>Display Content</displaytype>
+      <defaultfile type="external" version="">chapter1.html</defaultfile>
+      <referencedobjects>
+        <object version="1">/js</object>
+        <object version="1">/images</object>
+      </referencedobjects>
+    </contentmetadata>
+    <coursecontentmetadata>
+      <allowComments>true</allowComments>
+      <attemptlimit>0</attemptlimit>
+      <defaultpoints>0</defaultpoints>
+      <description>Test Description</description>
+      <graderule></graderule>
+      <instructoronly>Student instructor</instructoronly>
+      <latesubmissions>true</latesubmissions>
+      <openinsuppwindow>true</openinsuppwindow>
+      <subtitle>Clip</subtitle>
+      <thumbnailimage version="1" />
+      <useproxypage></useproxypage>
+      <viewsubmit>yes</viewsubmit>
+      <associatedunits>
+        <unit rsuiteid="bsi__52FDF221__1CCC__4C41__91BD__FF5C13812056">Chapter 1</unit>
+      </associatedunits>
+    </coursecontentmetadata>
+    <toc>
+      <structure type="launchpad" hidefromlaunchpad="no">
+        <associatedunitid/>
+        <parentid>bsi__17593B4C__90B3__45B3__8211__6B0CA6984504</parentid>
+        <sequence>zzze</sequence>
       </structure>
     </toc>
   </request>
