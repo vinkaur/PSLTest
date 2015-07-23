@@ -15,7 +15,7 @@ namespace PSLTest
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Request r = new Request();
+            ItemRequest r = new ItemRequest();
 
             var serializer = new XmlSerializer(typeof(pubrequest));
             using (var reader = XmlReader.Create("D:\\GitHub\\PSL\\PSLTest\\PSLTest\\PSLTest\\pub.xml"))
@@ -32,7 +32,7 @@ namespace PSLTest
                 title.ForEach(m => r.Item.ForEach(x => x.Data.Title = m.Title));
 
             }
-            var serialize = new XmlSerializer(typeof(Request));
+            var serialize = new XmlSerializer(typeof(ItemRequest));
 
             using (var writer = File.OpenWrite("D:\\GitHub\\PSL\\PSLTest\\PSLTest\\PSLTest\\FinalXml.xml"))
             {
