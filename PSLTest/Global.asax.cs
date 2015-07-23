@@ -16,6 +16,7 @@ namespace PSLTest
             // Code that runs on application startup
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             AuthConfig.RegisterOpenAuth();
+            Config.Configure();
         }
 
         void Application_End(object sender, EventArgs e)
