@@ -9,7 +9,7 @@ namespace PSLTest
     [Serializable]
     [XmlRoot("request")]
 
-    public class Request
+    public class ItemRequest
     {
         [XmlElement("item")]
         public List<Item> Item { get; set; }
@@ -18,6 +18,9 @@ namespace PSLTest
     {
         [XmlAttribute("itemid")]
         public string ItemId { get; set; }
+
+        [XmlAttribute("entityid")]
+        public string EntityId { get; set; }
 
         [XmlAttribute("version")]
         public string Version { get; set; }
