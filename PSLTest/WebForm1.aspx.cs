@@ -26,11 +26,12 @@ namespace PSLTest
                 r.Item = new List<Item>();
                 var item = Mapper.Map<List<request>, List<Item>>(info.Request);
                 r.Item = item;
-                var text = Mapper.Map<List<Structure>, List<Data>>(data.ToList());                
+                var text = Mapper.Map<List<Structure>, List<Data>>(data.ToList());
+                var toc = Mapper.Map<List<Structure>, List<BfwTocContents>>(data.Where(m => m != null).ToList());   
                 var title = Mapper.Map<List<ContentMetaData>, List<Data>>((info.Request.Select(m => m.ContentMetaData)).Where(m => m != null).ToList());
                 text.ForEach(m => r.Item.ForEach(x => x.Data = m));                
                 title.ForEach(m => r.Item.ForEach(x => x.Data.Title = m.Title));
-
+                toc.ForEach(m => r.Item.ForEach(x => ((x.Data.BfwTocs = new BfwTocs()).BfwTocContents = new BfwTocContents()).Sequence = m.Sequence));
             }
             var serialize = new XmlSerializer(typeof(ItemRequest));
 
